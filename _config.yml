@@ -1,0 +1,8 @@
+# Site settings
+title: Koen Devolder
+author: Koen Devolder
+url:
+
+# Build settings
+sass:
+  sass_dir: css
