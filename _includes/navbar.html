@@ -1,0 +1,36 @@
+<div class="container text-center mt-4 d-none d-sm-block">
+  <div class="title py-1">
+    Koen Devolder
+  </div>
+  <div class="py-1">
+    <a href="https://facebook.com/koen.devolder/" target="_blank" class="px-1">
+      <img src="/assets/img/facebook.png" width="32" height="32" alt="">
+    </a>
+    ·
+    <a href="https://linkedin.com/in/koendevolder" target="_blank" class="px-1">
+      <img src="/assets/img/linkedin.png" width="32" height="32" alt="">
+    </a>
+    ·
+    <a href="https://github.com/koendevolder" target="_blank" class="px-1">
+      <img src="/assets/img/github.png" width="32" height="32" alt="">
+    </a>
+  </div>
+  <div class="py-1 line"></div>
+</div>
+
+<nav class="navbar navbar-expand-sm navbar-light">
+  <a href="/" class="navbar-brand">
+    <span class="d-sm-none">Koen Devolder</span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <a href="/" class="nav-item nav-link {% if page.url == "/" %}active{% endif %}">Blog</a>
+      <a href="/portfolio.html" class="nav-item nav-link {% if page.url == "/portfolio.html" %}active{% endif %}">Portfolio</a>
+      <a href="/reading-list.html" class="nav-item nav-link {% if page.url == "/reading-list.html" %}active{% endif %}">Reading List</a>
+      <a href="/contact.html" class="nav-item nav-link {% if page.url == "/contact.html" %}active{% endif %}">Contact</a>
+    </ul>
+  </div>
+</nav>
