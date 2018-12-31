@@ -13,12 +13,15 @@ a:hover {
   text-decoration: none;
 }
 
-.line {
-    border-top: 1px solid #dee2e6;
-    margin: 24px auto 0px;
-    width: 64px;
+hr {
+    width: 128px;
 }
 
+@media (min-width: 768px) {
+  .jumbotron .container {
+    width: 500px;
+  }
+}
 
 @media (min-width: 1200px){
   .navbar-expand-sm .navbar-nav .nav-link {
@@ -53,6 +56,20 @@ a:hover {
   font-weight: 600;
   background-color: transparent;
   color: rgba(0, 0, 0, 1);
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  margin-top: 10vh;
+}
+
+.btn-outline-dark {
+  width: 120px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
 }
 
 .post-title {

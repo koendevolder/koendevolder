@@ -1,40 +1,12 @@
 ---
 layout: default
 ---
-<div class="container">
-	<div class="row">
-		<div class="col-md-8 offset-md-2">
-			<!--
-		  {% for post in site.posts %}
-		    <article class="pb-2 mb-4 border-bottom">
-		      <h2>
-		      	<a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-		      </h2>
-		      <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
-						{% assign m = post.date | date: "%-m" %}
-						{{ post.date | date: "%-d" }}
-						{% case m %}
-						  {% when '1' %}Januari
-						  {% when '2' %}Februari
-						  {% when '3' %}Maart
-						  {% when '4' %}April
-						  {% when '5' %}Mei
-						  {% when '6' %}Juni
-						  {% when '7' %}Juli
-						  {% when '8' %}Augustus
-						  {% when '9' %}September
-						  {% when '10' %}Oktober
-						  {% when '11' %}November
-						  {% when '12' %}December
-						{% endcase %}
-						{{ post.date | date: "%Y" }}
-				  </time>
-		      <p>
-		      	{{ post.excerpt }}
-		      </p>
-		    </article>
-		  {% endfor %}
-		-->
-		</div>
-	</div>
+<div class="jumbotron">
+  <div class="container mb-4">
+    <h1 class="title">I am Koen Devolder, a CISO and self-taught web developer living in Antwerp, Belgium</h1>
+  </div>
+  <div>
+    <a href="/blog.html" class="btn btn-outline-dark btn-md">Blog</a>
+    <a href="/contact.html" class="btn btn-outline-dark btn-md">Contact</a>
+  </div>
 </div>
