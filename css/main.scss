@@ -87,6 +87,37 @@ hr {
     font-size: 0.8rem;
 }
 
+.thumbnail-container {
+  width: calc(1440px * 0.25);
+  height: calc(900px * 0.25);
+  display: inline-block;
+  overflow: hidden;
+  margin: 15px;
+
+}
+
+.thumbnail, .thumbnail iframe {
+  width: 1440px;
+  height: 900px;
+}
+
+.thumbnail {
+  -ms-zoom: 0.25;
+  -moz-transform: scale(0.25);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.25);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.25);
+  -webkit-transform-origin: 0 0;
+  transform: scale(0.25);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+.thumbnail-border {
+  border: 1px solid rgba(0, 0, 0, 0.3);  
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -100,6 +131,6 @@ footer {
   position: absolute;
   width: 100%;
   bottom: 0;
-  height: 50px;
-  line-height: 50px;
+  height: 80px;
+  line-height: 80px;
 }
