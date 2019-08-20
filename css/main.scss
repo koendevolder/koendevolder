@@ -61,7 +61,28 @@ hr {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  margin-top: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+@media (min-width: 575px) {
+  .bg {
+    background-image: url(/assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 16%;
+    padding-bottom: 16%;
+  }
+}
+
+@media (max-width: 575px) {
+  .mobilebg {
+    background-image: url(/assets/img/mobilebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60%;
+    padding-bottom: 60%;
+  }
 }
 
 .btn-outline-dark {
